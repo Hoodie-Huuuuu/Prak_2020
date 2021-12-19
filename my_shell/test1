@@ -1,0 +1,24 @@
+
+(cat test2; ls) | grep a
+
+cat test2 | grep a | grep w
+
+(cat test2; ls) | grep a
+
+cat test2 | (ls; grep a)
+
+(grep NULL) < test2 > file1
+
+man 2 wait
+
+(grep a test2))
+
+grep a test2; grep b test2 ; ;
+
+grep a test2 &
+
+grep a test2 | grep w | grep i | grep t
+
+grep a < test2 > file2
+
+grep a
